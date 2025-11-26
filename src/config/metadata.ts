@@ -5,7 +5,7 @@ export const metaData: Metadata = {
     openGraph: {
         type: "website",
         locale: "en_US",
-        siteName: "Dillon Portfolio",
+        siteName: "T-rustdev Portfolio",
         title:
             "T-rustdev | Software Developer",
         description:

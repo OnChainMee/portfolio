@@ -37,7 +37,7 @@ export function Header() {
               width={50}
               height={50}
             />
-            <span className="text-lg">Dillon</span>
+            <span className="text-lg">T-rustdev</span>
           </Link>
         </div>
         <div className=" text-gray-400">{time}</div>

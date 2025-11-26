@@ -54,7 +54,7 @@ export const socialLinks = [
 ];
 
 export const personalInfo = {
-  name: "T-rustdev",
+  name: "I am T-rustdev",
   title: "Blockchain & Full Stack Developer",
   avatar: "/images/about/logo.png",
   email: "dillonking130@gmail.com",
@@ -427,7 +427,7 @@ export const testimonials = [
     position: "Founder",
     avatar: "/images/testimonials/Kevin.png",
     testimonial:
-      "Dillon worked with us and he was quite the problem solver. His ability to learn quickly and eagerness to learn new things was super helpful since we were a high velocity team and expected quick results. Would happily work with him again to develop good products, and recommend him to other employers looking for a fast learner in your team!",
+      "He worked with us and he was quite the problem solver. His ability to learn quickly and eagerness to learn new things was super helpful since we were a high velocity team and expected quick results. Would happily work with him again to develop good products, and recommend him to other employers looking for a fast learner in your team!",
   },
   {
     name: "Periwinkle",
@@ -436,6 +436,6 @@ export const testimonials = [
     position: "CTO",
     avatar: "/images/testimonials/Periwinkle.png",
     testimonial:
-      "Dillon is a hardworking, driven and dedicated person. He will be an asset wherever he goes.",
+      "He is a hardworking, driven and dedicated person. He will be an asset wherever he goes.",
   },
 ];

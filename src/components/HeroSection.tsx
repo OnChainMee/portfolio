@@ -85,7 +85,7 @@ export function HeroSection() {
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         className="flex-1 text-center lg:text-left"
       >
-        <div className="flex justify-center lg:justify-start items-center gap-4 mb-6">
+        {/* <div className="flex justify-center lg:justify-start items-center gap-4 mb-6">
           <motion.div
             whileHover={{ scale: 1.02, y: -1 }}
             whileTap={{ scale: 0.98 }}
@@ -99,7 +99,7 @@ export function HeroSection() {
               <span>Schedule a call</span>
             </a>
           </motion.div>
-        </div>
+        </div> */}
 
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
