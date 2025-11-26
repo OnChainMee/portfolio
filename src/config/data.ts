@@ -54,11 +54,11 @@ export const socialLinks = [
 ];
 
 export const personalInfo = {
-  name: "Dillon Marszalek",
+  name: "T-rustdev",
   title: "Blockchain & Full Stack Developer",
   avatar: "/images/about/logo.png",
   email: "dillonking130@gmail.com",
-  location: "Ontario, Canada",
+  location: "",
   description:
     "Passionate and seasoned solution architect and software engineer with a robust expertise in web and blockchain technologies. Over the past eight years, I've effectively leveraged technology to craft innovative digital solutions. I thrive on embracing new challenges and navigating through obstacles to deliver impactful results. Excited about pushing the boundaries of technology and contributing to the ever-evolving landscape of digital solutions.",
 };

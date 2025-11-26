@@ -52,8 +52,8 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
           className="flex items-center gap-2 text-sm text-gray-400 mb-4"
         >
-          <FiMapPin className="w-4 h-4" />
-          {heroSection.personalInfo.location}
+          {/* <FiMapPin className="w-4 h-4" /> */}
+          {/* {heroSection.personalInfo.location} */}
         </motion.div>
 
         <motion.div
