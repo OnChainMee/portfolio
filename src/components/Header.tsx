@@ -32,12 +32,12 @@ export function Header() {
           <Link href="/" className="flex gap-2 items-center">
             <Image
               src="/logo.png"
-              alt="imabhishek logo"
+              alt="Dillon logo"
               className="rounded-full h-8 w-8"
               width={50}
               height={50}
             />
-            <span className="text-lg">T-rustdev</span>
+            <span className="text-lg">Dillon</span>
           </Link>
         </div>
         <div className=" text-gray-400">{time}</div>

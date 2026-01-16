@@ -5,26 +5,26 @@ export const metaData: Metadata = {
     openGraph: {
         type: "website",
         locale: "en_US",
-        siteName: "T-rustdev Portfolio",
+        siteName: "Dillon Portfolio",
         title:
-            "T-rustdev | Software Developer",
+            "Dillon | Blockchain Architect",
         description:
-            "Discover T-rustdev, Passionate and seasoned solution architect and software engineer with a robust expertise in web and blockchain technologies. Over the past eight years, I've effectively leveraged technology to craft innovative digital solutions. I thrive on embracing new challenges and navigating through obstacles to deliver impactful results. Excited about pushing the boundaries of technology and contributing to the ever-evolving landscape of digital solutions.",
+            "Discover OnChainMee, Blockchain Architect | Full-Stack DApps & DEXes (Solana + EVM) | AI Agents & NFT Systems | Web3 Infrastructure & DeFi",
         images: [
             {
                 url: "/logo.webp",
-                alt: "T-rustdev | Software Developer | React, Next.js, Nest.js",
+                alt: "OnChainMee | Blockchain Architect | Full-Stack DApps & DEXes (Solana + EVM) | AI Agents & NFT Systems | Web3 Infrastructure & DeFi",
                 height: 630,
                 width: 1200,
             },
         ],
     },
     title:
-        "T-rustdev | Software Developer | React, Next.js, Nest.js",
+        "Dillon | Blockchain Architect | Full-Stack DApps & DEXes (Solana + EVM) | AI Agents & NFT Systems | Web3 Infrastructure & DeFi",
     description:
-        "Discover T-rustdev, Discover T-rustdev, Passionate and seasoned solution architect and software engineer with a robust expertise in web and blockchain technologies. Over the past eight years, I've effectively leveraged technology to craft innovative digital solutions. I thrive on embracing new challenges and navigating through obstacles to deliver impactful results. Excited about pushing the boundaries of technology and contributing to the ever-evolving landscape of digital solutions.",
+        "Discover OnChainMee, Blockchain Architect | Full-Stack DApps & DEXes (Solana + EVM) | AI Agents & NFT Systems | Web3 Infrastructure & DeFi",
     keywords:
-        "T-rustdev, Blockchain and Full-Stack Developer, Solana Developer, EVM developer, Bitcoin Developer, ReactJS Developer, NextJS Developer, NestJS Developer, Remix Developer, Shopify Apps, AI Innovation, Web Development, Portfolio, React developer, Next js developer, Nest js developer, PostgreSQL, Strapi, Sanity, Supabase, TailwindCSS",
+        "OnChainMee, Blockchain Architect, Full-Stack DApps & DEXes (Solana + EVM) | AI Agents & NFT Systems | Web3 Infrastructure & DeFi",
     robots:
         "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
     icons: {
@@ -32,7 +32,7 @@ export const metaData: Metadata = {
         apple: "/logo.png",
     },
     authors: {
-        name: "T-rustdev",
+        name: "OnChainMee",
         url: "https://github.com/OnChainMee",
     },
 };

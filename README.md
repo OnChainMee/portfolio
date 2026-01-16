@@ -32,7 +32,7 @@ My Portfolio serves as a personal portfolio site to display your professional jo
 Clone the repository:
 
 ```bash
-git clone https://github.com/2-rust/portfolio.git
+git clone https://github.com/OnChainMee/portfolio.git
 cd portfolio
 ```
 
@@ -69,8 +69,8 @@ Open an issue or submit a pull request to improve the portfolio.
 ## 📫 Contact
 
 - **Website:** [fnine.dev](https://www.fnine.dev)
-- **GitHub:** [Rust Developer](https://github.com/2-rust)
+- **GitHub:** [OnChainMee](https://github.com/OnChainMee)
 
 ---
 
-> Crafted with Next.js, Tailwind CSS, and passion by [Rust Developer](https://github.com/2-rust)
+> Crafted with Next.js, Tailwind CSS, and passion by [OnChainMee](https://github.com/OnChainMee)

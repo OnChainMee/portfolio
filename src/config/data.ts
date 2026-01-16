@@ -31,19 +31,19 @@ export const socialLinks = [
     id: 5,
     priority: 1,
     title: "GitHub",
-    url: "https://github.com/2-rust",
+    url: "https://github.com/OnChainMee",
   },
   {
     id: 6,
     priority: 2,
     title: "Twitter",
-    url: "https://twitter.com/t_rustdev_",
+    url: "https://twitter.com/OnChainMee",
   },
   {
     id: 7,
     priority: 3,
     title: "Telegram",
-    url: "https://t.me/rust_devv",
+    url: "https://t.me/OnChainMee",
   },
   // {
   //   id: 8,
@@ -54,13 +54,13 @@ export const socialLinks = [
 ];
 
 export const personalInfo = {
-  name: "I am T-rustdev",
-  title: "Blockchain & Full Stack Developer",
+  name: "I am Dillon",
+  title: "Blockchain Architect | Full-Stack DApps & DEXes (Solana + EVM) | AI Agents & NFT Systems | Web3 Infrastructure & DeFi",
   avatar: "/images/about/logo.png",
-  email: "dillonking130@gmail.com",
+  email: "",
   location: "",
   description:
-    "Passionate and seasoned solution architect and software engineer with a robust expertise in web and blockchain technologies. Over the past eight years, I've effectively leveraged technology to craft innovative digital solutions. I thrive on embracing new challenges and navigating through obstacles to deliver impactful results. Excited about pushing the boundaries of technology and contributing to the ever-evolving landscape of digital solutions.",
+    "Architect of Tomorrow's Digital Realms. I build blockchain-powered worlds that turn everyday actions into extraordinary experiences. With 8 years as a solution architect and software engineer, I’ve created AI-driven fitness gamification, DeFi trackers, and resilient Web3 platforms. I thrive on solving uncharted challenges and delivering scalable, innovative solutions.",
 };
 
 export const heroSection = {
@@ -211,16 +211,6 @@ export const techStack = [
     type: "Backend & Databases",
   },
 
-  // === CMS ===
-  { name: "Sanity", icon: SiSanity, color: "text-red-500", type: "CMS" },
-  { name: "Strapi", icon: SiStrapi, color: "text-blue-700", type: "CMS" },
-  {
-    name: "Contentful",
-    icon: SiContentful,
-    color: "text-blue-500",
-    type: "CMS",
-  },
-
   // === TOOLS & DEVOPS ===
   {
     name: "Git",
@@ -243,7 +233,7 @@ export const projects = [
       "This project is a blockchain-based gaming and collectible platform built on *Solana*. Users can own, *stake*, and *trade* NFTs (digital collectibles), and possibly earn rewards through gameplay or participation.",
     image: "/images/projects/critters.quest.png",
     liveUrl: "https://critters.quest/",
-    githubUrl: "https://github.com/2-rust/critters-quest",
+    githubUrl: "https://github.com/OnChainMee/critters-quest",
     techStack: ["Next.js", "Rust", "TypeScript", "Tailwind"]
     // techStack: techStack.filter((item) =>
     //   ["Next.js", "Rust", "TypeScript", "Tailwind"].includes(item.name)
@@ -255,7 +245,7 @@ export const projects = [
       "Nut.market is a *crypto / DeFi marketplace platform* where users can list, trade, or interact with digital assets (i.e. tokens / NFTs). I contributed by building the frontend with Next.js and Tailwind, integrating smart contract calls via Web3.js / ethers, and ensuring smooth UX for listing & asset browsing",
     image: "/images/projects/nutmarket.png",
     liveUrl: "https://nut.market/",
-    githubUrl: "https://github.com/2-rust/nut.market-marketplace",
+    githubUrl: "https://github.com/OnChainMee/nut.market-marketplace",
     techStack: ["Next.js", "Rust", "Anchor", "Web3.js", "TypeScript", "Tailwind"]
   },
   {
@@ -264,7 +254,7 @@ export const projects = [
       "FloppyLabs is a *non custodial staking* platform on *Solana*. It enables NFT projects to deploy staking functionalities in minutes — handling staking, escrow, rewards, analytics, and UI — with minimal fuss. They monetize via small transaction fees (e.g. 0.01 SOL per stake/unstake).",
     image: "/images/projects/floppylabs.png",
     liveUrl: "https://floppylabs.io/",
-    githubUrl: "https://github.com/2-rust/floppylabs-nft-staking",
+    githubUrl: "https://github.com/OnChainMee/floppylabs-nft-staking",
     techStack: ["Next.js", "Rust", "TypeScript", "Tailwind", "Anchor", "Web3.js"]
   },
   {
@@ -273,7 +263,7 @@ export const projects = [
       "Arcus is an *institutional-grade Bitcoin yield, lending protocal and credit infrastructure* platform. With MPC-based custody, permissioned access, and an API for lending/credit services, it enables institutions to safely deploy Bitcoin capital and generate yield.",
     image: "/images/projects/arcus.png",
     liveUrl: "https://arcusbtc.com/",
-    githubUrl: "https://github.com/ArcusBTC/arcus-app",
+    githubUrl: "https://github.com/OnChainMee/arcus-app",
     techStack: ["React.js", "Bitcoin.js", "TypeScript", "Tailwind", "Node.js"]
   },
   {
@@ -282,7 +272,7 @@ export const projects = [
       "InternetJPEG is a *digital art / Ordinal swap and trading* platform focusing on JPEG-based collectibles. It provides tools for minting, showcasing, and trading visual digital assets — blending internet culture with crypto art.",
     image: "/images/projects/internetjpeg.png",
     liveUrl: "https://internetjpeg.com/",
-    githubUrl: "https://github.com/internetjpegs-com/Frontend",
+    githubUrl: "https://github.com/OnChainMee/internetjpegs-com/Frontend",
     techStack: ["Vite.js", "Bitcoin.js", "TypeScript", "Tailwind", "Nest.js"]
   },
   {
@@ -291,7 +281,7 @@ export const projects = [
       "Airdrop platform *to airdrop BRC20 tokens to Taproot addresses*. Supports Unisat, Leader, and XVerse wallets. Utilized `PSBT` & `bitcoinjs` for deploying & minting tokens.",
     image: "/images/projects/brc20.png",
     liveUrl: "https://bmpbrc.com/",
-    githubUrl: "https://github.com/2-rust/BRC20-withdraw-Backend",
+    githubUrl: "https://github.com/OnChainMee/BRC20-withdraw-Backend",
     techStack: ["React.js", "Bitcoin.js", "TypeScript", "Tailwind", "Node.js"]
   },
   {
@@ -300,7 +290,7 @@ export const projects = [
       "*Cross-chain DEX with Hydra Market Maker* (HMM) smart pricing algorithm. Concentrated liquidity for better LP rewards & impermanent loss reduction.",
     image: "/images/projects/hydraswap.png",
     liveUrl: "https://hydraswap.io/",
-    githubUrl: "https://github.com/2-rust/hydra-swap-HMM-dex",
+    githubUrl: "https://github.com/OnChainMee/hydra-swap-HMM-dex",
     techStack: ["React", "Rust", "TypeScript", "Tailwind", "Anchor"]
   },
   {
@@ -309,7 +299,7 @@ export const projects = [
       "*EVM NFT staking platform* where users mint GEN111/GEN2 NFTs. Holders earn artifacts as rewards from staking.",
     image: "/images/projects/dizmonkz.jpg",
     liveUrl: "https://digimonkz.com/",
-    githubUrl: "https://github.com/2-rust/DigiMonkz-Staking",
+    githubUrl: "https://github.com/OnChainMee/DigiMonkz-Staking",
     techStack: ["React", "Solidity", "TypeScript", "Tailwind"]
   },
   {
@@ -318,7 +308,7 @@ export const projects = [
       "Deployed on *Bitcoin, Ethereum, Binance, and Solana*. Includes Scissors, Turtlerace, Mines, Dice, Plinko, Slot, Crash games. Supports native tokens & USDT, USDC for betting.",
     image: "/images/projects/playzelo.png",
     liveUrl: "https://playzelo.xyz/",
-    githubUrl: "https://github.com/2-rust/scissors/tree/master/backend",
+    githubUrl: "https://github.com/OnChainMee/scissors/tree/master/backend",
     techStack: ["Next.js", "Rust", "TypeScript", "Tailwind", "Solidity"]
   },
   {
@@ -327,7 +317,7 @@ export const projects = [
       "*P2E Game with SPL token rewards*. Built Smart Contracts using Anchor (Rust) & Next.js for frontend.",
     image: "/images/projects/seek.jpg",
     liveUrl: "https://www.seekersyndicate.com/",
-    githubUrl: "https://github.com/2-rust/SPLFaucetSmartContract",
+    githubUrl: "https://github.com/OnChainMee/SPLFaucetSmartContract",
     techStack: ["Vite.js", "Rust", "TypeScript", "Tailwind"]
   },
   {
@@ -336,7 +326,7 @@ export const projects = [
       "*DeFi Lending Protocol* offering real-yield mechanisms for investors. First multi-layered real-yield ecosystem providing stable passive income.",
     image: "/images/projects/yy.png",
     liveUrl: "https://yieldzprotocol.com/",
-    githubUrl: "https://github.com/2-rust/360-Defi-SmartContract",
+    githubUrl: "https://github.com/OnChainMee/360-Defi-SmartContract",
     techStack: ["React", "Solidity", "TypeScript", "Tailwind"]
   },
   {
@@ -345,7 +335,7 @@ export const projects = [
       "Developing AI-driven blockchain *agents to automate financial and social intelligence on Ethereum(Base) & Solana*. Integrating smart contracts with AI processing to optimize blockchain interactions. Cut research time 90%, amplify productivity by 10x. Power smarter investment decisions..",
     image: "/images/projects/nyx.png",
     liveUrl: "https://nyxcipher.ai/",
-    githubUrl: "https://github.com/2-rust/Nyx-Cipher-Agent",
+    githubUrl: "https://github.com/OnChainMee/Nyx-Cipher-Agent",
     techStack: ["Next.js", "LLM", "TypeScript", "Tailwind", "Web3.js", "Birdeye"]
   },
   {
@@ -354,7 +344,7 @@ export const projects = [
       "A treasure trove of free *PC games and browser-based delights*. Discover thrilling titles ready for download and instant play.",
     image: "/images/projects/free-games-hub.webp",
     liveUrl: "https://www.freegameshub.xyz",
-    githubUrl: "https://github.com/2-rust/FreeGamesHub",
+    githubUrl: "https://github.com/OnChainMee/FreeGamesHub",
     techStack: ["Next.js", "TypeScript", "Tailwind"]
   },
 ];
