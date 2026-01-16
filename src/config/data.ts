@@ -70,25 +70,23 @@ export const heroSection = {
 
 export const workExperience = [
   {
-    company: "Freelancer",
-    position: "Trading Bot Developer",
-    period: "Feb 2024 - Present",
+    company: "Fighters Unbound",
+    position: "Blockchain AI Developer",
+    period: "February 2025 - Present",
     shortDesc:
       "",
     bulletPoints: [
-      "Created bot systems for blockchain transaction automation, including trading bots(*Bundler, Volume, Sniper, Copy Trading*), *arbitrage*, and *liquidations* on *Solana* Network(Pump.fun, Raydium and Meteora)",
-      "Also Created *Bundler* and *Volume* Booster on *Four.meme(BNB)*",
-      "Developed on-chain trading business logic and implemented it into a Node.js back end paired with a MySQL database",
-      "Created API and WebSocket endpoints for live data feeds and direct connection to the front end",
-      "Expanded the system for commercial use, enabling multiple users to access it simultaneously",
-      "Integrating AI tools into internal projects to enhance automation and workflows",
-      "Utilized various decentralized finance *liquidity pool protocols* such as *Jito* and *Uniswap*",
+      "Built a Web3 fitness training platform that gamifies NFT fighter training through *real-world activities* (Strava running, yoga, meditation), dynamically upgrading fighter attributes stored off-chain in SQLite and generating OpenSea-compatible NFT metadata in *real-time* for *5,200+ fighters.*",
+      "Designed and implemented a microservice architecture with *TypeScript/Express.js* backend for training data and *Strava API integration*, *Python/FastAPI AI trainer agent using LangGraph* for workflow orchestration, and *React/Next.js frontend with wallet connectivity via RainbowKit and wagmi.*",
+      "Built an AI-powered training recommendation system using *LangGraph state machines*, three *ChromaDB vector databases* (Action Recording, Training Analysis, Knowledge Base) for semantic search of user actions and patterns, and *Ollama LLM integration* for generating personalized coach responses with distinct personality modes (Dead/Butch) based on strict prompt engineering rules. ",
+      "Developed intelligent training analysis service that processes months of training history to identify undertrained fighter attributes, calculate consistency scores, analyze training patterns, and generate prioritized recommendations considering fighter training recency, *Strava mileage availability*, user goals, and consistency metrics.",
+      "Optimized system performance with TTL-based in-memory caching (reducing database queries by ~70% and response times from ~100ms to ~10ms), *SQLAlchemy connection pooling*, parallel execution in LangGraph workflows, and real-time Strava API integration with activity filtering, daily sync limits, and monthly training cycle tracking.",
     ],
   },
   {
     company: "NFheroes, LLC",
     position: "DeFi Engineer",
-    period: "May 2023 - Feb 2024",
+    period: "May 2023 - Feb 2025",
     shortDesc:
       "",
     bulletPoints: [
@@ -101,22 +99,9 @@ export const workExperience = [
     ],
   },
   {
-    company: "Moduluc",
-    position: "Senior Solana Smart Contract Developer",
-    period: "",
-    shortDesc:
-      "March 2022 - May 2023",
-    bulletPoints: [
-      "Developed and deployed new *Solana* programs to enhance the company’s blockchain ecosystem",
-      "Collaborated with internal teams to design, build, and optimize Solana-based applications",
-      "Led the development team, overseeing technical implementation and ensuring high-quality code delivery",
-      "Directed end-to-end development of *Solana smart contracts* with *Anchor*, improving performance and reliability",
-    ],
-  },
-  {
     company: "MintySwap, PTE LTD",
     position: "EVM Smart Contracts Developer",
-    period: "",
+    period: "May 2022 - March 2023",
     shortDesc:
       "",
     bulletPoints: [
@@ -126,9 +111,22 @@ export const workExperience = [
     ],
   },
   {
+    company: "Moduluc",
+    position: "Solana Smart Contract Developer",
+    period: "",
+    shortDesc:
+      "October 2020 - May 2022",
+    bulletPoints: [
+      "Developed and deployed new *Solana* programs to enhance the company’s blockchain ecosystem",
+      "Collaborated with internal teams to design, build, and optimize Solana-based applications",
+      "Led the development team, overseeing technical implementation and ensuring high-quality code delivery",
+      "Directed end-to-end development of *Solana smart contracts* with *Anchor*, improving performance and reliability",
+    ],
+  },
+  {
     company: "Brand View",
     position: "Full Stack Developer",
-    period: "Nov 2018 - May 2020",
+    period: "October 2016 - May 2020",
     shortDesc:
       "",
     bulletPoints: [
@@ -228,9 +226,18 @@ export const techStack = [
 
 export const projects = [
   {
+    title: "Fighters Unbound",
+    description:
+      "A *Web3 fitness platform* that gamifies NFT fighter training through *real-world activities* like Strava running, yoga, and meditation, with an *AI-powered personal coach*.",
+    image: "/images/projects/fighters.png",
+    liveUrl: "https://fighters.unbound.games/",
+    githubUrl: "https://github.com/Fighters-Unbound/fighters-unbound",
+    techStack: ["Solidity", "Next.js", "Python", "Web3.js", "TypeScript", "Langgragh"]
+  },
+  {
     title: "Critters Quest ",
     description:
-      "This project is a blockchain-based gaming and collectible platform built on *Solana*. Users can own, *stake*, and *trade* NFTs (digital collectibles), and possibly earn rewards through gameplay or participation.",
+    "This project is a blockchain-based gaming and collectible platform built on *Solana*. Users can own, *stake*, and *trade* NFTs (digital collectibles), and possibly earn rewards through gameplay or participation.",
     image: "/images/projects/critters.quest.png",
     liveUrl: "https://critters.quest/",
     githubUrl: "https://github.com/OnChainMee/critters-quest",
@@ -242,11 +249,29 @@ export const projects = [
   {
     title: "Nutmarket ",
     description:
-      "Nut.market is a *crypto / DeFi marketplace platform* where users can list, trade, or interact with digital assets (i.e. tokens / NFTs). I contributed by building the frontend with Next.js and Tailwind, integrating smart contract calls via Web3.js / ethers, and ensuring smooth UX for listing & asset browsing",
+    "Nut.market is a *crypto / DeFi marketplace platform* where users can list, trade, or interact with digital assets (i.e. tokens / NFTs). I contributed by building the frontend with Next.js and Tailwind, integrating smart contract calls via Web3.js / ethers, and ensuring smooth UX for listing & asset browsing",
     image: "/images/projects/nutmarket.png",
     liveUrl: "https://nut.market/",
     githubUrl: "https://github.com/OnChainMee/nut.market-marketplace",
     techStack: ["Next.js", "Rust", "Anchor", "Web3.js", "TypeScript", "Tailwind"]
+  },
+  {
+    title: "Luck.io",
+    description:
+      "Luck.io is a fully *non-custodial*, *privacy-first* *Solana gaming platform—connect* your wallet (Phantom, Solflare) and play instantly with no KYC required. Enjoy lightning-fast, low-fee transactions, provably fair on-chain games, offline testing mode, and a modern *JavaScript-enabled* web interface.",
+    image: "/images/projects/luck.png",
+    liveUrl: "https://luck.io/",
+    githubUrl: "https://github.com/OnChainMee/Luck.io-casino-game",
+    techStack: ["Rust", "Next.js", "Web3.js", "TypeScript", "Solana"]
+  },
+  {
+    title: "Onchain-Experiments_V1",
+    description:
+      "This project is a *fully on-chain*, generative NFT platform where *artwork, metadata*, and logic are permanently generated and stored directly on the blockchain, without external servers, IPFS",
+    image: "/images/projects/onchain.png",
+    liveUrl: "https://www.onchainexperiments.xyz/",
+    githubUrl: "https://github.com/2-rust/onchain-experiments-v1",
+    techStack: ["Rust", "Next.js", "Web3.js", "TypeScript", "Solana"]
   },
   {
     title: "Floppylabs ",
@@ -411,13 +436,22 @@ export const certifications = [
 
 export const testimonials = [
   {
+    name: "Berliner",
+    company: "fightersunbound",
+    linkedIn: "",
+    position: "Founder",
+    avatar: "/images/testimonials/berliner.jpg",
+    testimonial:
+      "Your work is impressive too. Great teamwork. And the speed was crazy.",
+  },
+  {
     name: "Kevin",
-    company: "internetjpeg.com",
+    company: "internetjpegs",
     linkedIn: "",
     position: "Founder",
     avatar: "/images/testimonials/Kevin.png",
     testimonial:
-      "He worked with us and he was quite the problem solver. His ability to learn quickly and eagerness to learn new things was super helpful since we were a high velocity team and expected quick results. Would happily work with him again to develop good products, and recommend him to other employers looking for a fast learner in your team!",
+      "He’s a fast learner and strong problem solver, thriving in a high-velocity team. I’d gladly work with him again and recommend him to any employer seeking quick, effective contributors.",
   },
   {
     name: "Periwinkle",
