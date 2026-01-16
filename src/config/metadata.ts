@@ -33,6 +33,6 @@ export const metaData: Metadata = {
     },
     authors: {
         name: "T-rustdev",
-        url: "https://github.com/2-rust",
+        url: "https://github.com/OnChainMee",
     },
 };

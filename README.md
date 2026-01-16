@@ -68,7 +68,6 @@ Open an issue or submit a pull request to improve the portfolio.
 
 ## 📫 Contact
 
-- **Gmail:** dillonking130@gmail.com
 - **Website:** [fnine.dev](https://www.fnine.dev)
 - **GitHub:** [Rust Developer](https://github.com/2-rust)
 
