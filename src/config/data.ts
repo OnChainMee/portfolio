@@ -72,7 +72,7 @@ export const workExperience = [
   {
     company: "Fighters Unbound",
     position: "Blockchain AI Developer",
-    period: "February 2025 - Present",
+    period: "May 2025 - Present",
     shortDesc:
       "",
     bulletPoints: [
@@ -84,30 +84,34 @@ export const workExperience = [
     ],
   },
   {
-    company: "NFheroes, LLC",
-    position: "DeFi Engineer",
-    period: "May 2023 - Feb 2025",
+    company: "Mueller Health Foundation, Inc",
+    position: "Full-stack Blockchain Developer",
+    period: "August 2023 - May 2025",
     shortDesc:
       "",
     bulletPoints: [
-      "Built a *decentralized finance blockchain app* that automatically indexes and tracks tokens on the blockchain with support for *BNB Chain, Ethereum, and Fantom*",
-      "Built the back-end of the application, processing blockchain data to track price activity and trade volume of tokens in real-time. Enabled advanced aggregation and analytics to provide in-depth, instantaneous tracking",
-      "Designed and implemented microservice architecture on AWS Elastic container service and AWS RDS (Postgres DB), processing months of blockchain data. Microservices were written in TypeScript using Nest.js",
-      "Designed web app using Figma and worked with front-end engineer to build React front-end for the app hosted on Vercel (Next.js). Also did a bit of front-end development myself",
-      "Built an automated CI/CD pipeline using GitHub and GitHub Actions to automatically deploy the back end and website",
-      "Wrote smart contracts to analyze on-chain data and look for potential scam tokens",
+      "Developed minting of on-chain NFTs to represent documents stored on the TBConnect app related to tuberculosis research and analysis",
+      "Upgraded overall application from Node.js 8 to Node.js 16 and React 16 to React 17 in 2023",
+      "Upgraded dependencies and cleared all errors to improve overall performance",
+      "Deployed the upgraded back-end to an AWS EC2 instance, the front-end to an AWS S3 bucket, and various APIs to Amazon API Gateway. As a result, the application is now fast, scalable with resizable compute capacity, highly secure, and very efficient",
+      "Upgraded the chat and virtual meeting functionality from Twilio Video to the Zoom Video SDK to enable group meetings instead of one-to-one sessions",
+      "Updated the visual aesthetic of the front end to enhance the overall user experience, making it more intuitive, engaging, and visually appealing",
     ],
   },
   {
     company: "MintySwap, PTE LTD",
     position: "EVM Smart Contracts Developer",
-    period: "May 2022 - March 2023",
+    period: "May 2022 - June 2023",
     shortDesc:
       "",
     bulletPoints: [
-      "Created and deployed a *staking contract* for the platform token",
-      "Created a demo DApp for the staking contract",
-      "Implemented and deployed the graph for the staking contract tracking all events and allowing more advanced queries",
+      "Developed and deployed secure, scalable Ethereum-based smart contracts for the MintySwap platform, enabling NFT minting, token swaps, and DeFi interactions across multiple chains (ETH, BNB)",
+      "Designed and implemented token upgrade mechanisms (V2 migration) with enhanced multisig wallet security and ownership of liquidity pools, maintaining low taxes while ensuring robust funding and liquidity management",
+      "Integrated NFT marketplace functionalities, supporting creators and collectors with minting, trading, and managing digital assets on a decentralized platform",
+      "Collaborated with front-end developers to provide seamless interaction between smart contracts and the user interface, ensuring real-time transaction tracking and optimized user experience",
+      "Developed open APIs for third-party developers to interact with MintySwap smart contracts, promoting community collaboration and ecosystem growth",
+      "Contributed to game-based blockchain applications, including NFT-based FPS and MMORPG games, enabling players to earn $MINTYS and $ETH through smart contract driven mechanics",
+      "Conducted code audits and implemented best practices for security, gas optimization, and upgradeable contract architecture in a high-volume DeFi and NFT ecosystem",
     ],
   },
   {
@@ -124,17 +128,18 @@ export const workExperience = [
     ],
   },
   {
-    company: "Brand View",
+    company: "Marrybrown Sdn Bhd",
     position: "Full Stack Developer",
-    period: "October 2016 - May 2020",
+    period: "March 2018 - May 2020",
     shortDesc:
       "",
     bulletPoints: [
-      "Adapted the back end to switch from *MySQL to MongoDB*, enhancing the *scalability* and *performance* of the database system better to handle the increasing volume of user data and transactions",
-      "Designed and implemented a robust user authentication system, ensuring secure access and protecting sensitive user information",
-      "Developed a seamless payment processing system, integrating various payment gateways to facilitate smooth and secure transactions",
-      "Delivered a scalable architecture that supported future expansion and growth, allowing the platform to adapt to increasing user demands and new feature integrations",
-      "Worked closely with cross-functional teams to design, develop, and deploy critical features, fostering a collaborative environment that contributed to the successful delivery of the project",
+      "Migrated the back-end database from MySQL to MongoDB, significantly improving scalability, query performance, and handling of growing user and transaction volumes",
+      "Designed and implemented a secure user authentication system, ensuring safe access and protection of sensitive customer information",
+      "Integrated multiple payment gateways into a seamless payment processing system, enabling smooth and secure transactions for users",
+      "Developed a real-time order tracking feature, enhancing customer engagement and satisfaction by allowing users to monitor their orders from preparation to delivery",
+      "Ensured the platform was fully responsive and mobile-friendly, delivering a consistent and optimal user experience across desktops, tablets, and smartphones",
+      "Built a scalable system architecture to support future expansion, additional features, and increased traffic demands",
     ],
   },
 ];
