@@ -90,12 +90,12 @@ export const workExperience = [
     shortDesc:
       "",
     bulletPoints: [
-      "Developed minting of on-chain NFTs to represent documents stored on the TBConnect app related to tuberculosis research and analysis",
-      "Upgraded overall application from Node.js 8 to Node.js 16 and React 16 to React 17 in 2023",
-      "Upgraded dependencies and cleared all errors to improve overall performance",
-      "Deployed the upgraded back-end to an AWS EC2 instance, the front-end to an AWS S3 bucket, and various APIs to Amazon API Gateway. As a result, the application is now fast, scalable with resizable compute capacity, highly secure, and very efficient",
-      "Upgraded the chat and virtual meeting functionality from Twilio Video to the Zoom Video SDK to enable group meetings instead of one-to-one sessions",
-      "Updated the visual aesthetic of the front end to enhance the overall user experience, making it more intuitive, engaging, and visually appealing",
+      "Developed *minting of on-chain NFTs* to represent documents stored on the TBConnect app related to tuberculosis research and analysis",
+      "Upgraded *overall application from Node.js 8 to Node.js 16 and React 16 to React 17* in 2023",
+      "Upgraded *dependencies and cleared all errors* to improve overall performance",
+      "Deployed the *upgraded back-end to an AWS EC2 instance, the front-end to an AWS S3 bucket, and various APIs to Amazon API Gateway*. As a result, the application is now fast, scalable with resizable compute capacity, highly secure, and very efficient",
+      "Upgraded the *chat and virtual meeting functionality from Twilio Video to the Zoom Video SDK* to enable group meetings instead of one-to-one sessions",
+      "Updated the *visual aesthetic of the front end* to enhance the overall user experience, making it more intuitive, engaging, and visually appealing",
     ],
   },
   {
@@ -105,13 +105,13 @@ export const workExperience = [
     shortDesc:
       "",
     bulletPoints: [
-      "Developed and deployed secure, scalable Ethereum-based smart contracts for the MintySwap platform, enabling NFT minting, token swaps, and DeFi interactions across multiple chains (ETH, BNB)",
-      "Designed and implemented token upgrade mechanisms (V2 migration) with enhanced multisig wallet security and ownership of liquidity pools, maintaining low taxes while ensuring robust funding and liquidity management",
-      "Integrated NFT marketplace functionalities, supporting creators and collectors with minting, trading, and managing digital assets on a decentralized platform",
+      "Developed and deployed *secure, scalable Ethereum-based smart contracts* for the MintySwap platform, enabling NFT minting, token swaps, and DeFi interactions across multiple chains (ETH, BNB)",
+      "Designed and implemented *token upgrade mechanisms (V2 migration)* with enhanced multisig wallet security and ownership of liquidity pools, maintaining low taxes while ensuring robust funding and liquidity management",
+      "Integrated *NFT marketplace functionalities*, supporting creators and collectors with minting, trading, and managing digital assets on a decentralized platform",
       "Collaborated with front-end developers to provide seamless interaction between smart contracts and the user interface, ensuring real-time transaction tracking and optimized user experience",
-      "Developed open APIs for third-party developers to interact with MintySwap smart contracts, promoting community collaboration and ecosystem growth",
-      "Contributed to game-based blockchain applications, including NFT-based FPS and MMORPG games, enabling players to earn $MINTYS and $ETH through smart contract driven mechanics",
-      "Conducted code audits and implemented best practices for security, gas optimization, and upgradeable contract architecture in a high-volume DeFi and NFT ecosystem",
+      "Developed *open APIs* for third-party developers to interact with MintySwap smart contracts, promoting community collaboration and ecosystem growth",
+      "Contributed to *game-based blockchain applications*, including NFT-based FPS and MMORPG games, enabling players to earn $MINTYS and $ETH through smart contract driven mechanics",
+      "Conducted *code audits* and implemented best practices for security, gas optimization, and upgradeable contract architecture in a high-volume DeFi and NFT ecosystem",
     ],
   },
   {
@@ -121,9 +121,9 @@ export const workExperience = [
     shortDesc:
       "October 2020 - May 2022",
     bulletPoints: [
-      "Developed and deployed new *Solana* programs to enhance the company’s blockchain ecosystem",
-      "Collaborated with internal teams to design, build, and optimize Solana-based applications",
-      "Led the development team, overseeing technical implementation and ensuring high-quality code delivery",
+      "Developed and deployed *new Solana programs* to enhance the company’s blockchain ecosystem",
+      "Collaborated with *internal teams* to design, build, and optimize Solana-based applications",
+      "Led the *development team*, overseeing technical implementation and ensuring high-quality code delivery",
       "Directed end-to-end development of *Solana smart contracts* with *Anchor*, improving performance and reliability",
     ],
   },
@@ -134,12 +134,12 @@ export const workExperience = [
     shortDesc:
       "",
     bulletPoints: [
-      "Migrated the back-end database from MySQL to MongoDB, significantly improving scalability, query performance, and handling of growing user and transaction volumes",
-      "Designed and implemented a secure user authentication system, ensuring safe access and protection of sensitive customer information",
-      "Integrated multiple payment gateways into a seamless payment processing system, enabling smooth and secure transactions for users",
-      "Developed a real-time order tracking feature, enhancing customer engagement and satisfaction by allowing users to monitor their orders from preparation to delivery",
-      "Ensured the platform was fully responsive and mobile-friendly, delivering a consistent and optimal user experience across desktops, tablets, and smartphones",
-      "Built a scalable system architecture to support future expansion, additional features, and increased traffic demands",
+      "Migrated the *back-end database from MySQL to MongoDB*, significantly improving scalability, query performance, and handling of growing user and transaction volumes",
+      "Designed and implemented a *secure user authentication system*, ensuring safe access and protection of sensitive customer information",
+      "Integrated multiple payment gateways into a *seamless payment processing system*, enabling smooth and secure transactions for users",
+      "Developed a *real-time order tracking feature*, enhancing customer engagement and satisfaction by allowing users to monitor their orders from preparation to delivery",
+      "Ensured the platform was *fully responsive and mobile-friendly*, delivering a consistent and optimal user experience across desktops, tablets, and smartphones",
+      "Built a *scalable system architecture* to support future expansion, additional features, and increased traffic demands",
     ],
   },
 ];
